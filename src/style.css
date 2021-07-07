@@ -3,8 +3,8 @@
   padding: 0;
 }*/
 
-h5{
-  color:#92b4f4;
+h5 {
+  color: #92b4f4;
   display: inline;
 }
 
@@ -12,7 +12,7 @@ h5{
   width: 150px;
   display: inline;
   font-size: 12px;
-   border-style: none;
+  border-style: none;
   padding: 5px 10px;
   background-color: #fff;
   color: #92b4f4;
@@ -20,21 +20,21 @@ h5{
   border-style: solid;
   border-color: #92b4f4;
   border-width: 1px;
-/* box-shadow: 0px 1px 4px rgb(180, 180, 180);*/
+  /* box-shadow: 0px 1px 4px rgb(180, 180, 180);*/
   transition: all 300ms ease-in-out;
-      }
+}
 
-      #current-location:hover {
-        color: #ff7171;
-        font-weight: bold;
-        cursor: pointer;
-        border-style: solid;
-        background-color: #fff;
-        border-color: #fff;
-        border-width: 1px;
-          border-color: #92b4f4;
-        border-radius: 40px;
-      }
+#current-location:hover {
+  color: #ff7171;
+  font-weight: bold;
+  cursor: pointer;
+  border-style: solid;
+  background-color: #fff;
+  border-color: #fff;
+  border-width: 1px;
+  border-color: #92b4f4;
+  border-radius: 40px;
+}
 
 .container {
   margin-top: 100px;
@@ -64,6 +64,7 @@ h5{
   color: #33658a;
   font-weight: 300;
 }
+
 .celsiustoggle {
   color: #92b4f4;
   text-decoration: none;
@@ -75,13 +76,11 @@ h5{
   font-size: 18px;
   font-weight: 600;
   color: #92b4f4;
-
 }
 
-.celsiustoggle:hover{
+.celsiustoggle:hover {
   cursor: pointer;
-    color: #33658a;
-
+  color: #33658a;
 }
 
 .currentlow {
@@ -126,4 +125,21 @@ h5{
 .prev span {
   color: #ff715b;
   padding-left: 10px;
+}
+
+.opensourcep {
+  margin-top: 20px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 600;
+  color: #47597e;
+}
+
+.opensourcep a {
+  color: #ff715b;
+  text-decoration: none;
+  transition: all 500ms ease;
+}
+.opensourcep a:hover {
+  color: #86bbd8;
 }
